@@ -7,5 +7,7 @@ setup(
     author_email="info@jaybird.ir",
     description="add wrapping whole url in django urls",
     license="PSF",
+    url='https://github.com/vorujack/decorate_url',
+    download_url='https://github.com/vorujack/decorate_url/tarball/1.0',
     keywords="django url_wrap",
 )
