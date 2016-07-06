@@ -18,7 +18,7 @@ by this module you can wrap whole url into a method like this
 
 Example Usage:
 ```python
-from decorate_url import decorate_url as url
+from decorate_url import decorated_url as url
 
 urlpatterns = patterns('',
     url(r'^', include('Main.urls'), wrap=never_cache),
