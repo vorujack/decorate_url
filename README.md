@@ -1,4 +1,4 @@
-django decorate url
+Django decorate url
 ====================
 
 Django decorate URL allows you to apply a decorator to a URL pattern.
