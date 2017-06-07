@@ -45,9 +45,9 @@ urlpatterns = [
                   wrap=user_passes_test(email_check),
 ]
 ```
-In the above example, the `user_passes_test` is applied to the 
+In the above example, the `user_passes_test` decorator is applied to the 
 pattern `r'^example/'`. It ensures that only users with emails that end in `@example.com` can
-access urls with the `r'^example/'` patten.
+access urls with the `r'^example/'` pattern.
 
 
 
@@ -67,7 +67,7 @@ urlpatterns = [
                   wrap=staff_member_required(login_url=settings.LOGIN_URL)),
 ]
 ```
-In the above example, the `staff_member_required` is applied to the 
+In the above example, the `staff_member_required` decorator is applied to the 
 pattern `r'^admin/'`. By setting the `login_url` to `settings.LOGIN_URL`, access to the 
 standard admin login page is blocked and forces staff users through the login screen
-defined by settings.LOGIN_URL.
+defined by `settings.LOGIN_URL`.
