@@ -30,7 +30,7 @@ you to decorate an entire url pattern. Have a look at the examples below:
 
 Example 1 in `urls.py`
 ----------------------
-```
+```python
 from decorate_url import decorated_url
 from django.conf.urls import include, url
 from django.contrib.auth.decorators import user_passes_test
@@ -53,7 +53,7 @@ access urls with the `r'^example/'` pattern.
 
 Example 2 in `urls.py`
 ----------------------
-```
+```python
 from decorate_url import decorated_url
 from django.conf.urls import include, url
 from django.conf import settings
